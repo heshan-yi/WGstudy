@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  background-color: rgb(86, 145, 27);
+}
+img {
+  vertical-align: middle;
+}
+/*wghead*/
+.wghead {
+  position: relative;
+}
+.wghead span img {
+  width: 12%;
+}
+.wghead ul {
+  display: inline;
+}
+.wghead ul li {
+  float: right;
+  background-color: rgb(243, 245, 218);
+  width: 12%;
+  margin-top: 2%;
+  margin-right: 8px;
+  height: 4.5vh;
+  text-align: center;
+  line-height: 4.5vh;
+  color: rgb(71, 122, 20);
+  font-weight: bolder;
+}
+.wghead ul li img {
+  width: 40%;
+  padding: 3px;
+}
+
+header ul li img {
+  padding-top: 5px;
+  width: 100%;
+}
+/*焦点图*/
+.swiper {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #004f04;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}
+
+/*搜索*/
+.search {
+  margin-top: 2%;
+  text-align: center;
+}
+.search img {
+  width: 6%;
+}
+.search input {
+  border: 2px solid;
+  height: 3vh;
+  width: 60%;
+  color: rgb(243, 245, 218);
+  background-color: rgb(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding-left: 5px;
+  outline: none;
+}
+/*news*/
+.news ul {
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.news ul li {
+  background-color: rgb(0, 0, 0, 0.3);
+  margin-top: 2%;
+  padding: 2%;
+  color: rgb(243, 245, 218, 0.8);
+}
